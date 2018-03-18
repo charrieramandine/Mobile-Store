@@ -1,0 +1,40 @@
+<% provide(:title, 'Contact') %> <!--tab title-->
+
+<br>
+<h1>Something to say? Get in touch!</h1>
+<hr>
+<br>
+
+<h2>We love to hear what you think - good, or bad! Fill in the form below and we'll get back to you as soon as we can!</h2>
+
+<br>
+<script src="form.js"></script><!--Link to the JS file to change the form field background color-->
+<script>
+$(document).ready(function(){
+    $("input").focus(function(){
+        $(this).css("background-color", "#cccccc");
+    });
+});
+</script>
+
+	<form> <!--Contact form-->
+	<table>
+	<tr>
+	<td>Your Name</td>
+	<td><input name = "name" type = "text" size = "60" /></td>
+	</tr>
+	<td>Your Email</td>
+	<td><input email = "email" type = "text" size = "60" /></td>
+	</tr>
+	<td>Subject</td>
+	<td><input subject = "subject" type = "text" size = "60" /></td>
+	</tr>
+	<td>Your Message</td>
+	<td><input message = "message" type = "text" size = "60" style="height:150px" /></td>
+	</tr>
+	<td></td>
+	<td><input class="commit" name="commit" type="submit" value="Submit"/></td> 
+	</table>
+	</form>
+
+

@@ -1,0 +1,9 @@
+    <header class="headSec"><!--I created a header file to reduce the amount of data in the application file-->
+      <%=image_tag("logo.jpg", :alt => "Logo", :class=>"logo") %> <!--Link to my logo located in the image folder-->
+      <ul>
+        <li><%= link_to "Home", root_path %></li> <!--navigation bar-->
+        <li><%= link_to "Phones", phones_path %></li>
+        <li><%= link_to "About Us", about_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
+      </ul>
+    </header>

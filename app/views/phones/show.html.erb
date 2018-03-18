@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @phone.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @phone.model %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @phone.price %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @phone.description %>
+</p>
+
+<%= link_to 'Edit', edit_phone_path(@phone), :class => "option" %> |
+<%= link_to 'Back', phones_path, :class => "option" %>

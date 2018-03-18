@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | 2.0 MOBILE STORE</title><!--tab title-->
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    
+    <%= render 'layouts/header' %> <!--Link to the header-->
+    
+      
+    <%= yield %>
+    
+    
+    <%= render 'layouts/footer' %><!--Link to the footer-->
+    
+  </body>
+</html>

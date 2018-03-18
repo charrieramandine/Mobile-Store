@@ -1,0 +1,111 @@
+/*Style of the app using CSS*/
+
+.logo {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headSec {
+  min-height: 10px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {float:left;}
+
+
+li a {
+  display: block;
+  color: black;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px 110px;
+  text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f70441;
+	background-color: #e5e5e5;
+}
+
+body {
+  background-image: url("phone.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.subtit {
+  font-style: italic;
+}
+
+.subtit2 {
+  color: #f70441;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.description {
+  font-size: 14px;
+  
+}
+.option {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #e5e5e5;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.commit {
+  background-color: #e5e5e5;
+  border: none;
+  color: #f70441;
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mainCont {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.foot {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: Montserrat;
+  font-weight: bold;
+}
